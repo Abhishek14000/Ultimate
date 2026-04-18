@@ -296,7 +296,7 @@ else:
 final_html = styled_html.replace("TOC_PLACEHOLDER", toc_html)
 final_html = final_html.replace("CONTENT_PLACEHOLDER", html_body_clean)
 
-with open("kundli_report_premium.html", "w", encoding="utf-8") as f:
+with open("kundli_report.html", "w", encoding="utf-8") as f:
     f.write(final_html)
 
-print(f"Done. Output: kundli_report_premium.html ({len(final_html):,} chars)")
+print(f"Done. Output: kundli_report.html ({len(final_html):,} chars)")
